@@ -33,7 +33,8 @@ const userSchema = new mongoose.Schema({
         }
     ],
     id:{
-        type: String
+        type: String,
+        unique: true
     }
 
 })
